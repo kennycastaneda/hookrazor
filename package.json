@@ -1,0 +1,23 @@
+{
+  "name": "www-hook-razor",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000h\u0000o\u0000o\u0000k\u0000r\u0000a\u0000z\u0000o\u0000r\u0000\r\u0000 \u0000",
+  "main": "script.js",
+  "dependencies": {
+    "stripe": "^8.132.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennycastaneda/hookrazor.git"
+  },
+  "author": "Kinetic Synergies LLC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennycastaneda/hookrazor/issues"
+  },
+  "homepage": "https://github.com/kennycastaneda/hookrazor#readme"
+}
