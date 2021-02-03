@@ -21,14 +21,15 @@
           <h5>$10.00</h5>
         </div>
       </div>
-      <div class="text-center">
+      <div class="text-center description">
       <button type="button" id="checkout-button" class="btn btn-dark container-sm mx-5 mb-5">Checkout</button>
+      <h3>Email: <a href="emailto:kenny@kineticsynergies.com">kenny@kineticsynergies.com</a> for sales inquiries.</h3>
       </div>
     </section>
   </body>
-  <script type="text/javascript" src="server.js">
+  <script type="text/javascript">
     // Create an instance of the Stripe object with your publishable API key
-    var stripe = Stripe("pk_live_bo67iFEjtZkAeH5mMPRbwEOc00irQCQ413");
+    var stripe = Stripe("pk_test_HGy99jD3zyt2XkLVMaUvA5Es00K3LAn7yw");
     var checkoutButton = document.getElementById("checkout-button");
     checkoutButton.addEventListener("click", function () {
       fetch("/create-checkout-session", {
