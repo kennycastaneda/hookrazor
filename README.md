@@ -10,3 +10,6 @@ Utilizing BootStrap for styles. Need to implement more JS with server for Stripe
 Initial try with Stripe was daunting but not feel more comfortable with attempting with my course work.
 
 Would be great to add videos as backgrounds with overlying text.
+
+![Alt text](/images/screenshot.PNG?raw=true "screenshot site")
+![Alt text](/images/screenshot_mobile.PNG?raw=true "screenshot site")
